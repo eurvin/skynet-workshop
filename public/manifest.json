@@ -1,6 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Supra Collateral",
+  "name": "supra collateral test",
+  "description": "testing sia homescreen",
+  "skylink": "XABvi7JtJbQSMAcDwnUnmp2FKDPjg8_tTTFP4BwMSxVdEg",
   "icons": [
     {
       "src": "favicon.ico",
@@ -22,4 +24,5 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
+
 }
