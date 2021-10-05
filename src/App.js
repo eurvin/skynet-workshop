@@ -21,7 +21,7 @@ import { ContentRecordDAC } from '@skynetlabs/content-record-library';
 /************************************************/
 
 // Import the SkynetClient and a helper
-import { getEntryLink, SkynetClient } from 'skynet-js';
+import { genKeyPairFromSeed, getEntryLink, SkynetClient } from 'skynet-js';
 
 // We'll define a portal to allow for developing on localhost.
 // When hosted on a skynet portal, SkynetClient doesn't need any arguments.
