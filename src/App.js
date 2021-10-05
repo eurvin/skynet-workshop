@@ -44,7 +44,7 @@ const client = new SkynetClient();
  const skylink = "sia://XABvi7JtJbQSMAcDwnUnmp2FKDPjg8_tTTFP4BwMSxVdEg";
 
  // set a registry entry to point at 'skylink'
- await client.db.setDataLink(privateKey, dataKey, skylink);
+ client.db.setDataLink(privateKey, dataKey, skylink);
 
  // get the resolver skylink which references the registry entry
  const resolverSkylink = getEntryLink(publicKey, dataKey)
